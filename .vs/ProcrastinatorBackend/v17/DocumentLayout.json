@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\ramse\\source\\fullstack\\procrastinatorbackend\\procrastinatorbackend\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\ramse\\source\\fullstack\\procrastinatorbackend\\procrastinatorbackend\\models\\quotedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\quotedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\ramse\\source\\fullstack\\procrastinatorbackend\\procrastinatorbackend\\models\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\ramse\\source\\fullstack\\procrastinatorbackend\\procrastinatorbackend\\models\\weatherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\weatherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:27:13.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuoteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:27:58.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuoteController.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:28:50.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "ToolTip": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackend\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:38:04.57Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
