@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProcrastinatorBackend.DTO;
 using ProcrastinatorBackend.Models;
 
 namespace ProcrastinatorBackend.Controllers
@@ -25,12 +26,20 @@ namespace ProcrastinatorBackend.Controllers
             return Ok(result);
         }
         [HttpPost]
-        public IActionResult AddMeal([FromBody] MealPlanner newMeal)
+        public IActionResult AddMeal([FromBody] MealPlannerDTO newMeal)
         {
-            newMeal.MealId = 0;
-            dbContext.MealPlanners.Add(newMeal);
+            MealPlanner m = new MealPlanner
+            {
+                UserId = newMeal.UserId,
+                Title = newMeal.Title,
+                Url = newMeal.Url,
+                Like = false,
+                IsCompleted = false,
+
+            };
+            dbContext.MealPlanners.Add(m);
             dbContext.SaveChanges();
-            return Created($"/api/MealPlanner/{newMeal.MealId}", newMeal);
+            return Created($"/api/MealPlanner/{m.MealId}", m);
         }
         [HttpPut("{id}")]
 
