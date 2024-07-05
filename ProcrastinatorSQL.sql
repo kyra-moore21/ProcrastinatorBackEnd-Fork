@@ -24,3 +24,6 @@
 --[Like] BIT, 
 --IsCompleted BIT
 --);
+
+--ALTER TABLE Task
+--ADD Created Date;
