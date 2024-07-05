@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProcrastinatorBackend.DTO;
 using ProcrastinatorBackend.Models;
 
@@ -15,14 +16,14 @@ namespace ProcrastinatorBackend.Controllers
         public IActionResult GetTasks()
         {
 
-            List<Models.Task> result = dbContext.Tasks.ToList();
+            List<Models.Task> result = dbContext.Tasks.Include(u => u.User ).ToList();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            Models.Task result = dbContext.Tasks.Find(id);
+            Models.Task result = dbContext.Tasks.Include(u=> u.UserId).FirstOrDefault(u=>u.UserId == id);
             if (result == null) { return NotFound(); }
             return Ok(result);
         }

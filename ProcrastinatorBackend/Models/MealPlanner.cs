@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ProcrastinatorBackend.Models;
 
@@ -16,6 +17,6 @@ public partial class MealPlanner
     public bool? Like { get; set; }
 
     public bool? IsCompleted { get; set; }
-
+    [JsonIgnore]
     public virtual User User { get; set; } = null!;
 }
