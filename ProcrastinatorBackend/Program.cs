@@ -1,5 +1,19 @@
 var builder = WebApplication.CreateBuilder(args);
 
+
+//cors
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            //replace localhost with yours
+            //also add your deployed website
+            policy.WithOrigins("http://localhost:4200",
+                                "https://ashy-bush-0fb3fb10f.5.azurestaticapps.net").AllowAnyMethod().AllowAnyHeader();
+        });
+});
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -22,4 +36,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+//Cors
+app.UseCors();
+//make sure the cors line is above this
 app.Run();

@@ -4566,19 +4566,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kyram\\.nuget\\packages\\": {}
+    "C:\\Users\\cstock\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+      "projectUniqueName": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
       "projectName": "ProcrastinatorBackend",
-      "projectPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
-      "packagesPath": "C:\\Users\\kyram\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\obj\\",
+      "projectPath": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+      "packagesPath": "C:\\Users\\cstock\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kyram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cstock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
