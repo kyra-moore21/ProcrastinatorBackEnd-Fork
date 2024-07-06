@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using ProcrastinatorBackend.DTO;
 using ProcrastinatorBackend.Models;
 
@@ -21,12 +22,12 @@ namespace ProcrastinatorBackend.Controllers
 
         public IActionResult GetMealsById(int id)
         {
-            MealPlanner result = dbContext.MealPlanners.Include(u => u.UserId).SingleOrDefault();
+            MealPlanner result = dbContext.MealPlanners.Include(u => u.User).FirstOrDefault(u => u.MealId == id);
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
         [HttpPost]
-        public IActionResult AddMeal([FromBody] MealPlannerDTO newMeal)
+        public IActionResult AddMeal(MealPlannerDTO newMeal)
         {
             MealPlanner m = new MealPlanner
             {
@@ -43,12 +44,18 @@ namespace ProcrastinatorBackend.Controllers
         }
         [HttpPut("{id}")]
 
-        public IActionResult UpdateMeal([FromBody] MealPlanner targetMeal, int id)
+        public IActionResult UpdateMeal(MealPlannerDTO meal, int id, bool Like, bool IsCompleted)
         {
 
-            if (targetMeal.MealId != id) { return BadRequest(); }
-            if (!dbContext.MealPlanners.Any(m => m.MealId == id)) { return NotFound(); }
-            dbContext.MealPlanners.Update(targetMeal);
+           MealPlanner m = dbContext.MealPlanners.Find(id);
+            if (m == null) { return NotFound(); }
+            m.UserId = meal.UserId;
+            m.Title = meal.Title;
+            m.Url = meal.Url;
+            m.Like = Like;
+            m.IsCompleted = IsCompleted;
+
+            dbContext.MealPlanners.Update(m);
             dbContext.SaveChanges();
             return NoContent();
         }

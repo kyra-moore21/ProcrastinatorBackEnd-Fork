@@ -47,13 +47,19 @@ namespace ProcrastinatorBackend.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, [FromBody] User updateUser)
+        public IActionResult UpdateUser(int id, UserDTO updatedUser)
         {
-            if(updateUser.UserId != id) { return BadRequest(); }
-            if(!dbContext.Users.Any(t => t.UserId == id)) {return NotFound(); }
-            dbContext.Users.Update(updateUser);
+            User u = dbContext.Users.Find(id);
+            if(u == null) { return NotFound(); }
+            u.FirstName = updatedUser.FirstName;
+            u.LastName = updatedUser.LastName;
+            u.Email = updatedUser.Email;
+            u.PhotoUrl = updatedUser.PhotoUrl;
+            u.Display = updatedUser.Display;
+            dbContext.Users.Update(u);
             dbContext.SaveChanges();
             return NoContent();
+            
         }
 
         [HttpDelete("{id}")]

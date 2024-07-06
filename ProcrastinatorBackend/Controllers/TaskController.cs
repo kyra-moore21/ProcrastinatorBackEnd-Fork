@@ -23,7 +23,7 @@ namespace ProcrastinatorBackend.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            Models.Task result = dbContext.Tasks.Include(u=> u.UserId).FirstOrDefault(u=>u.UserId == id);
+            Models.Task result = dbContext.Tasks.Include(u=> u.User).FirstOrDefault(u=>u.TaskId == id);
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
