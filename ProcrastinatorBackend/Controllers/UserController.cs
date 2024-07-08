@@ -32,6 +32,11 @@ namespace ProcrastinatorBackend.Controllers
         [HttpPost]
         public IActionResult AddUser(UserDTO newUser)
         {
+            if (dbContext.Users.Any(u => u.Email.ToLower() == newUser.Email.ToLower()))
+            {
+                return Ok(dbContext.Users.FirstOrDefault(u => u.Email.ToLower() == newUser.Email.ToLower()));
+            } else
+            {
             User u = new User
             {
                 FirstName = newUser.FirstName,
@@ -44,6 +49,7 @@ namespace ProcrastinatorBackend.Controllers
             dbContext.Users.Add(u);
             dbContext.SaveChanges();
             return Created($"/Api/User/{u.UserId}", u);
+            }
         }
 
         [HttpPut("{id}")]
