@@ -35,7 +35,7 @@ namespace ProcrastinatorBackend.Controllers
             Models.Task t = new Models.Task
             {
                 UserId = newTask.UserId,
-                Task1 = newTask.Task,
+                Task1 = newTask.Task1,
                 Deadline = newTask.Deadline,
                 Details = newTask.Details,
                 IsComplete = false,
@@ -54,7 +54,7 @@ namespace ProcrastinatorBackend.Controllers
             Models.Task t = dbContext.Tasks.Find(id);
             if (t == null) { return NotFound(); }
 
-            t.Task1 = updateTask.Task;
+            t.Task1 = updateTask.Task1;
             t.Deadline = updateTask.Deadline;
             t.Details = updateTask.Details;
             t.IsComplete = updateTask.IsComplete;

@@ -3,7 +3,7 @@
     public class TaskDTO
     {
         public int UserId { get; set; }
-        public string Task { get; set; }
+        public string Task1 { get; set; }
         public DateOnly Deadline { get; set; }
         public string Details { get; set; }
 
