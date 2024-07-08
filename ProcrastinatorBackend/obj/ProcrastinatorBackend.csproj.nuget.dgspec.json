@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj": {}
+    "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj": {
+    "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+        "projectUniqueName": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
         "projectName": "ProcrastinatorBackend",
-        "projectPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
-        "packagesPath": "C:\\Users\\kyram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\obj\\",
+        "projectPath": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+        "packagesPath": "C:\\Users\\ramse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramse\\source\\FULLSTACK\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kyram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ramse\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
