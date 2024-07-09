@@ -52,8 +52,8 @@ namespace ProcrastinatorBackend.Controllers
             m.UserId = meal.UserId;
             m.Title = meal.Title;
             m.Url = meal.Url;
-            m.Like = Like;
-            m.IsCompleted = IsCompleted;
+            m.Like = meal.Like;
+            m.IsCompleted = meal.IsCompleted;
 
             dbContext.MealPlanners.Update(m);
             dbContext.SaveChanges();
