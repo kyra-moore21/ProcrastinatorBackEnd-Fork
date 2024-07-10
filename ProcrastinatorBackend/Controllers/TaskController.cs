@@ -16,7 +16,7 @@ namespace ProcrastinatorBackend.Controllers
         public IActionResult GetTasks()
         {
 
-            List<Models.Task> result = dbContext.Tasks.Include(u => u.User ).ToList();
+            List<Models.Task> result = dbContext.Tasks.Include(u => u.User ).OrderBy(u => u.Deadline).ToList();
             return Ok(result);
         }
 
