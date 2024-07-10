@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcrastinatorBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bf242bde24aed88212d66d410b94de03d3acf51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c4a2f7a122280fb6be99d9ea60cd6231f2a6850")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcrastinatorBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcrastinatorBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

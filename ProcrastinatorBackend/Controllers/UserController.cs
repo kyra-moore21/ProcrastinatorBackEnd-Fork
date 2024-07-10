@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProcrastinatorBackend.DTO;
 using ProcrastinatorBackend.Models;
 
@@ -72,8 +73,13 @@ namespace ProcrastinatorBackend.Controllers
 
         public IActionResult DeleteUser(int id)
         {
-            User u = dbContext.Users.Find(id);
+
+            User u = dbContext.Users.Include(u => u.Tasks).Include(u => u.MealPlanners).FirstOrDefault(u => u.UserId == id);
             if (u == null) { return NotFound(); } 
+            dbContext.MealPlanners.RemoveRange(u.MealPlanners);
+            dbContext.Tasks.RemoveRange(u.Tasks);
+            dbContext.SaveChanges();
+
             dbContext.Users.Remove(u);
             dbContext.SaveChanges();
             return NoContent();
