@@ -6,7 +6,7 @@
 
         public string Title { get; set; }
 
-        public string Url { get; set; }
+        public string? Url { get; set; }
         public bool? Like { get; set; }
         public bool? IsCompleted { get; set; }
     }

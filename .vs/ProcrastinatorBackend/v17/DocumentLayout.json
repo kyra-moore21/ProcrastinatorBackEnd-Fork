@@ -1,53 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\",
+  "WorkspaceRootPath": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\dto\\mealplannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\dto\\mealplannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\procrastinatordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\procrastinatordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\procrastinatordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\weatherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\weatherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\weatherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\mealplannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\controllers\\mealplannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\mealplannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\quotedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\quotedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\quotedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-\\procrastinatorbackend\\models\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\cstock\\desktop\\grand circus\\final project\\backend\\procrastinatorbackend-\\procrastinatorbackend\\models\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,11 +62,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MealPlannerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\MealPlannerDTO.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\DTO\\MealPlannerDTO.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\MealPlannerDTO.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\DTO\\MealPlannerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:02:09.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -70,48 +83,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuoteController.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
-              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
-              "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T18:28:50.498Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:18:32.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAUwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:11:04.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T14:11:04.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProcrastinatorDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAwwD0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WeatherDAL.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\WeatherDAL.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherDAL.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\WeatherDAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,11 +119,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\TaskDTO.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\DTO\\TaskDTO.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\TaskDTO.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\DTO\\TaskDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -143,11 +131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +144,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:18:32.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuoteController.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:28:50.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MealPlannerController.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAA/wDEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,11 +180,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WeatherModel.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherModel.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherModel.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\WeatherModel.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherModel.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\WeatherModel.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\WeatherModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\User.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\User.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAIwBQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "QuoteDAL.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwBIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,11 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "QuoteModel.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\QuoteModel.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
+              "ToolTip": "C:\\Users\\cstock\\Desktop\\Grand Circus\\Final Project\\BackEnd\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\Models\\QuoteModel.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\QuoteModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
