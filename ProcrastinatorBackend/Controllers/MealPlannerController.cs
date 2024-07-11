@@ -59,7 +59,7 @@ namespace ProcrastinatorBackend.Controllers
             dbContext.SaveChanges();
             return NoContent();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public IActionResult deleteMeal(int id)
         {
