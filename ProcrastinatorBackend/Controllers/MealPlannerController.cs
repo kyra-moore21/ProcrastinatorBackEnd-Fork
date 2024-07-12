@@ -22,7 +22,7 @@ namespace ProcrastinatorBackend.Controllers
 
         public IActionResult GetMealsById(int id)
         {
-            MealPlanner result = dbContext.MealPlanners.Include(u => u.User).FirstOrDefault(u => u.MealId == id);
+            List<MealPlanner> result = dbContext.MealPlanners.Where(u => u.UserId == id).ToList();
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
