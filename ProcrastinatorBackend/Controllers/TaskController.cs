@@ -19,11 +19,10 @@ namespace ProcrastinatorBackend.Controllers
             List<Models.Task> result = dbContext.Tasks.Include(u => u.User ).OrderBy(u => u.Deadline).ToList();
             return Ok(result);
         }
-
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public IActionResult GetMealsById(int id)
         {
-            Models.Task result = dbContext.Tasks.Include(u=> u.User).FirstOrDefault(u=>u.TaskId == id);
+            List<Models.Task> result = dbContext.Tasks.Where(u => u.UserId == id).ToList();
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
