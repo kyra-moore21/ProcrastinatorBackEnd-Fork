@@ -9,8 +9,9 @@ namespace ProcrastinatorBackend.Controllers
     public class WeatherController : ControllerBase
     {
         [HttpGet]
-        public IActionResult GetWeather(string city)
+        public IActionResult GetWeather(string city )
         {
+            city = city.Replace( " ",  "%20") ;
             WeatherModel result = WeatherDAL.GetWeather(city);
             return Ok(result);
         }

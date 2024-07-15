@@ -1,5 +1,5 @@
 --CREATE DATABASE ProcrastinatorDB;
---USE ProcrastinatorDB;
+USE ProcrastinatorDB;
 
 --CREATE TABLE [User] (UserID INT IDENTITY (1,1) PRIMARY KEY,
 --FirstName NVARCHAR(255),
@@ -27,3 +27,7 @@
 
 --ALTER TABLE Task
 --ADD Created Date;
+
+SELECT * FROM [USER];
+SELECT * FROM [Task];
+SELECT * FROM MealPlanner;
