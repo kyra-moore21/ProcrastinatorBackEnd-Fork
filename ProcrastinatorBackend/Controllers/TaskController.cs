@@ -22,7 +22,7 @@ namespace ProcrastinatorBackend.Controllers
         [HttpGet("{id}")]
         public IActionResult GetMealsById(int id)
         {
-            List<Models.Task> result = dbContext.Tasks.Where(u => u.UserId == id).ToList();
+            List<Models.Task> result = dbContext.Tasks.Where(u => u.UserId == id).OrderBy(u => u.Deadline).ToList();
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
