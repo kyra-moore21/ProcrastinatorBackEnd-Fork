@@ -4571,11 +4571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+      "projectUniqueName": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
       "projectName": "ProcrastinatorBackend",
-      "projectPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
+      "projectPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\ProcrastinatorBackend.csproj",
       "packagesPath": "C:\\Users\\kyram\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-\\ProcrastinatorBackend\\obj\\",
+      "outputPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kyram\\AppData\\Roaming\\NuGet\\NuGet.Config",
