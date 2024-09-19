@@ -2,24 +2,21 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-//cors
+// CORS configuration
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(
         policy =>
         {
-            //replace localhost with yours
-            //also add your deployed website
             policy.WithOrigins("http://localhost:4200",
-                                "https://ashy-bush-0fb3fb10f.5.azurestaticapps.net").AllowAnyMethod().AllowAnyHeader();
+                               "https://theprioritizer.netlify.app")
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials();
         });
 });
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options => {
     options.MapType<DateOnly>(() => new OpenApiSchema
@@ -31,6 +28,9 @@ builder.Services.AddSwaggerGen(options => {
 
 var app = builder.Build();
 
+// Determine the port
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -38,13 +38,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Comment out HTTPS redirection for Heroku
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
 app.MapControllers();
 
-//Cors
+// Use CORS
 app.UseCors();
-//make sure the cors line is above this
-app.Run();
+
+app.Run($"http://+:{port}");
