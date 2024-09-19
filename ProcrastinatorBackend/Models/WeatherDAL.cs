@@ -7,9 +7,10 @@ namespace ProcrastinatorBackend.Models
     {
         public static WeatherModel GetWeather(string city) //Adjust
         {
+            string apiKey = Environment.GetEnvironmentVariable("apikey");
             //adjust
             //setup
-            string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={Secret.apikey}&units=imperial";
+            string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=imperial";
             //hide API key from github at end 
             //request leave alone
             HttpWebRequest request = WebRequest.CreateHttp(url);
