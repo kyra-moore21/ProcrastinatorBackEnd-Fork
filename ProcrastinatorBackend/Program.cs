@@ -46,5 +46,5 @@ app.MapControllers();
 
 // Use CORS
 app.UseCors();
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+
 app.Run($"http://+:{port}");
