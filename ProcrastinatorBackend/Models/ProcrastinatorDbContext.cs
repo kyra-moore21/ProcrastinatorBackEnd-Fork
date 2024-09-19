@@ -25,7 +25,11 @@ public partial class ProcrastinatorDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            string connectionString = Environment.GetEnvironmentVariable("connectionString");
+            string? connectionString = Environment.GetEnvironmentVariable("connectionString");
+            if (connectionString == null)
+            {
+                throw new ArgumentNullException(nameof(connectionString), "Connection string cannot be null. Please ensure the 'connectionString' environment variable is set.");
+            }
             optionsBuilder.UseSqlServer(connectionString);
         }
     }

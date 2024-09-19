@@ -15,6 +15,21 @@
         public int id { get; set; }
         public string name { get; set; }
         public int cod { get; set; }
+       
+            public WeatherModel()
+            {
+                coord = new Coord();
+                weather = new Weather[0];
+                _base = string.Empty;
+                main = new Main();
+                wind = new Wind();
+                clouds = new Clouds();
+                sys = new Sys();
+                name = string.Empty;
+            }
+
+
+        
     }
 
     public class Coord
@@ -51,6 +66,10 @@
         public string country { get; set; }
         public int sunrise { get; set; }
         public int sunset { get; set; }
+        public Sys()
+        {
+            country = string.Empty;
+        }
     }
 
     public class Weather
@@ -59,5 +78,11 @@
         public string main { get; set; }
         public string description { get; set; }
         public string icon { get; set; }
+        public Weather()
+        {
+            main = string.Empty;
+            description = string.Empty;
+            icon = string.Empty;
+        }
     }
 }
