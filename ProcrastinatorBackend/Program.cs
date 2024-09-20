@@ -20,8 +20,7 @@ builder.Services.AddCors(options =>
 // Setting up PostgreSQL DbContext
 builder.Services.AddDbContext<ProcrastinatorDbContext>(options =>
 {
-    var connectionString = Environment.GetEnvironmentVariable("connectionString")
-        ?? Secret.connectionString;
+    var connectionString = Environment.GetEnvironmentVariable("connectionString");
     options.UseNpgsql(connectionString);
 });
 
