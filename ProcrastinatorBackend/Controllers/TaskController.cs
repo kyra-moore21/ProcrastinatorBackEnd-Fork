@@ -10,19 +10,47 @@ namespace ProcrastinatorBackend.Controllers
     [ApiController]
     public class TaskController : ControllerBase
     {
-        ProcrastinatorDbContext dbContext = new ProcrastinatorDbContext();
+        private readonly ProcrastinatorDbContext _dbContext;
+
+        public TaskController(ProcrastinatorDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         [HttpGet]
         public IActionResult GetTasks()
         {
 
-            List<Models.Task> result = dbContext.Tasks.Include(u => u.User ).OrderBy(u => u.Deadline).ToList();
-            return Ok(result);
+            try
+            {
+                var result = _dbContext.Tasks
+                    .Include(t => t.User)
+                    .Select(t => new
+                    {
+                        t.Taskid,
+                        t.Task1,
+                        t.Deadline,
+                        t.Details,
+                        t.Iscomplete,
+                        User = new
+                        {
+                            t.User.Userid,
+                            t.User.Firstname,
+                        }
+                    })
+                    .OrderBy(t => t.Deadline)
+                    .ToList();
+                return Ok(result); 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "An error occurred while fetching tasks", details = ex.Message });
+            }
         }
         [HttpGet("{id}")]
         public IActionResult GetMealsById(int id)
         {
-            List<Models.Task> result = dbContext.Tasks.Where(u => u.UserId == id).OrderBy(u => u.Deadline).ToList();
+            List<Models.Task> result = _dbContext.Tasks.Where(u => u.Userid == id).OrderBy(u => u.Deadline).ToList();
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
@@ -33,33 +61,33 @@ namespace ProcrastinatorBackend.Controllers
         {
             Models.Task t = new Models.Task
             {
-                UserId = newTask.UserId,
+                Userid = newTask.UserId,
                 Task1 = newTask.Task1,
                 Deadline = newTask.Deadline,
                 Details = newTask.Details,
-                IsComplete = false,
+                Iscomplete = false,
                 Created = DateOnly.FromDateTime(DateTime.Now),
 
             };
-            dbContext.Tasks.Add(t);
-            dbContext.SaveChanges();
-            return Created($"/Api/Task/{t.UserId}", t);
+            _dbContext.Tasks.Add(t);
+            _dbContext.SaveChanges();
+            return Created($"/Api/Task/{t.Userid}", t);
         }
 
         [HttpPut("{id}")]
 
         public IActionResult UpdateUser(int id, TaskDTO updateTask)
         {
-            Models.Task t = dbContext.Tasks.Find(id);
+            Models.Task t = _dbContext.Tasks.Find(id);
             if (t == null) { return NotFound(); }
 
             t.Task1 = updateTask.Task1;
             t.Deadline = updateTask.Deadline;
             t.Details = updateTask.Details;
-            t.IsComplete = updateTask.IsComplete;
+            t.Iscomplete = updateTask.IsComplete;
 
-            dbContext.Tasks.Update(t);
-            dbContext.SaveChanges();
+            _dbContext.Tasks.Update(t);
+            _dbContext.SaveChanges();
             return NoContent();
         }
 
@@ -67,10 +95,10 @@ namespace ProcrastinatorBackend.Controllers
 
         public IActionResult DeleteTask(int id)
         {
-            Models.Task t = dbContext.Tasks.Find(id);
+            Models.Task t = _dbContext.Tasks.Find(id);
             if (t == null) { return NotFound(); }
-            dbContext.Tasks.Remove(t);
-            dbContext.SaveChanges();
+            _dbContext.Tasks.Remove(t);
+            _dbContext.SaveChanges();
             return NoContent();
         }
     }

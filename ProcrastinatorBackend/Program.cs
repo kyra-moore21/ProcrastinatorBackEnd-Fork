@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using ProcrastinatorBackend.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,13 @@ builder.Services.AddCors(options =>
                   .AllowAnyHeader()
                   .AllowCredentials();
         });
+});
+// Setting up PostgreSQL DbContext
+builder.Services.AddDbContext<ProcrastinatorDbContext>(options =>
+{
+    var connectionString = Environment.GetEnvironmentVariable("connectionString")
+        ?? Secret.connectionString;
+    options.UseNpgsql(connectionString);
 });
 
 builder.Services.AddControllers();
@@ -39,7 +48,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Comment out HTTPS redirection for Heroku
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.MapControllers();
@@ -47,4 +56,4 @@ app.MapControllers();
 // Use CORS
 app.UseCors();
 
-app.Run($"http://+:{port}");
+app.Run();

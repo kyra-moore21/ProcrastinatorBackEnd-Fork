@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using ProcrastinatorBackend.DTO;
 using ProcrastinatorBackend.Models;
 
@@ -11,62 +10,90 @@ namespace ProcrastinatorBackend.Controllers
     [ApiController]
     public class MealPlannerController : ControllerBase
     {
-        ProcrastinatorDbContext dbContext = new ProcrastinatorDbContext();
+        private readonly ProcrastinatorDbContext _dbContext;
+
+        public MealPlannerController(ProcrastinatorDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         [HttpGet]
         public IActionResult GetMeals()
         {
-            List<MealPlanner> result = dbContext.MealPlanners.Include(m => m.User).ToList();
-            return Ok(result);
+            try
+            {
+                var result = _dbContext.MealPlanners
+                    .Include(m => m.User)
+                    .Select(m => new
+                    {
+                        m.Mealid,
+                        m.Title,
+                        m.Url,
+                        m.Like,
+                        m.Iscompleted,
+                        User = new
+                        {
+                            m.User.Userid,
+                            m.User.Firstname,
+                        }
+                    })
+                    .ToList();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                return StatusCode(500, new { message = "An error occurred while fetching meal planners", details = ex.Message });
+            }    
         }
         [HttpGet("{id}")]
 
         public IActionResult GetMealsById(int id)
         {
-            List<MealPlanner> result = dbContext.MealPlanners.Where(u => u.UserId == id).ToList();
+            List<Mealplanner> result = _dbContext.MealPlanners.Where(u => u.Userid == id).ToList();
             if (result == null) { return NotFound(); }
             return Ok(result);
         }
         [HttpPost]
         public IActionResult AddMeal(MealPlannerDTO newMeal)
         {
-            MealPlanner m = new MealPlanner
+            Mealplanner m = new Mealplanner
             {
-                UserId = newMeal.UserId,
+                Userid = newMeal.UserId,
                 Title = newMeal.Title,
                 Url = newMeal.Url,
                 Like = false,
-                IsCompleted = false,
+                Iscompleted = false,
 
             };
-            dbContext.MealPlanners.Add(m);
-            dbContext.SaveChanges();
-            return Created($"/api/MealPlanner/{m.MealId}", m);
+            _dbContext.MealPlanners.Add(m);
+            _dbContext.SaveChanges();
+            return Created($"/api/MealPlanner/{m.Mealid}", m);
         }
         [HttpPut("{id}")]
 
         public IActionResult UpdateMeal(MealPlannerDTO meal, int id, bool Like, bool IsCompleted)
         {
 
-           MealPlanner m = dbContext.MealPlanners.Find(id);
+           Mealplanner m = _dbContext.MealPlanners.Find(id);
             if (m == null) { return NotFound(); }
-            m.UserId = meal.UserId;
+            m.Userid = meal.UserId;
             m.Title = meal.Title;
             m.Url = meal.Url;
             m.Like = meal.Like;
-            m.IsCompleted = meal.IsCompleted;
+            m.Iscompleted = meal.IsCompleted;
 
-            dbContext.MealPlanners.Update(m);
-            dbContext.SaveChanges();
+            _dbContext.MealPlanners.Update(m);
+            _dbContext.SaveChanges();
             return NoContent();
         }
         [HttpDelete("{id}")]
 
         public IActionResult deleteMeal(int id)
         {
-            MealPlanner m = dbContext.MealPlanners.Find(id);
+            Mealplanner m = _dbContext.MealPlanners.Find(id);
             if (m == null) { return NotFound(); }
-            dbContext.MealPlanners.Remove(m);
-            dbContext.SaveChanges();
+            _dbContext.MealPlanners.Remove(m);
+            _dbContext.SaveChanges();
             return NoContent();
         }
 

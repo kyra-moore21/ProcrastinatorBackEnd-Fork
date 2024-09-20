@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 namespace ProcrastinatorBackend.Models;
 
@@ -15,7 +16,7 @@ public partial class ProcrastinatorDbContext : DbContext
     {
     }
 
-    public virtual DbSet<MealPlanner> MealPlanners { get; set; }
+    public virtual DbSet<Mealplanner> MealPlanners { get; set; }
 
     public virtual DbSet<Task> Tasks { get; set; }
 
@@ -25,64 +26,75 @@ public partial class ProcrastinatorDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            string? connectionString = Environment.GetEnvironmentVariable("connectionString");
+            string? connectionString = Environment.GetEnvironmentVariable("connectionString")
+                 ?? Secret.connectionString;
             if (connectionString == null)
             {
                 throw new ArgumentNullException(nameof(connectionString), "Connection string cannot be null. Please ensure the 'connectionString' environment variable is set.");
             }
-            optionsBuilder.UseSqlServer(connectionString);
+
+            // Parse the connection string to ensure SSL is required
+            var builder = new NpgsqlConnectionStringBuilder(connectionString)
+            {
+                SslMode = SslMode.Require,
+                TrustServerCertificate = true
+            };
+
+            optionsBuilder.UseNpgsql(builder.ToString());
         }
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<MealPlanner>(entity =>
+        modelBuilder.Entity<Mealplanner>(entity =>
         {
-            entity.HasKey(e => e.MealId).HasName("PK__MealPlan__ACF6A65D9E434BFF");
+            entity.HasKey(e => e.Mealid).HasName("PK__MealPlan__ACF6A65D9E434BFF");
 
-            entity.ToTable("MealPlanner");
+            entity.ToTable("mealplanner");
 
-            entity.Property(e => e.MealId).HasColumnName("MealID");
+            entity.Property(e => e.Mealid).HasColumnName("mealid");
             entity.Property(e => e.Title).HasMaxLength(255);
             entity.Property(e => e.Url).HasMaxLength(255);
-            entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+            entity.Property(e => e.Like).HasColumnName("Like");
+            entity.Property(e => e.Iscompleted).HasColumnName("iscompleted");
 
-            entity.HasOne(d => d.User).WithMany(p => p.MealPlanners)
-                .HasForeignKey(d => d.UserId)
+            entity.HasOne(d => d.User).WithMany(p => p.Mealplanners)
+                .HasForeignKey(d => d.Userid)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__MealPlann__UserI__4E88ABD4");
         });
 
         modelBuilder.Entity<Task>(entity =>
         {
-            entity.HasKey(e => e.TaskId).HasName("PK__Task__7C6949D173E98E7B");
+            entity.HasKey(e => e.Taskid).HasName("PK__Task__7C6949D173E98E7B");
 
-            entity.ToTable("Task");
+            entity.ToTable("task");
 
-            entity.Property(e => e.TaskId).HasColumnName("TaskID");
+            entity.Property(e => e.Taskid).HasColumnName("taskid");
             entity.Property(e => e.Details).HasMaxLength(255);
             entity.Property(e => e.Task1)
                 .HasMaxLength(255)
-                .HasColumnName("Task");
-            entity.Property(e => e.UserId).HasColumnName("UserID");
+                .HasColumnName("task1");
+            entity.Property(e => e.Userid).HasColumnName("userid");
 
             entity.HasOne(d => d.User).WithMany(p => p.Tasks)
-                .HasForeignKey(d => d.UserId)
+                .HasForeignKey(d => d.Userid)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Task__UserID__4BAC3F29");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__User__1788CCACA98C3BF4");
+            entity.HasKey(e => e.Userid).HasName("PK__User__1788CCACA98C3BF4");
 
             entity.ToTable("User");
 
-            entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.Userid).HasColumnName("userid");
             entity.Property(e => e.Display).HasMaxLength(255);
             entity.Property(e => e.Email).HasMaxLength(255);
-            entity.Property(e => e.FirstName).HasMaxLength(255);
-            entity.Property(e => e.LastName).HasMaxLength(255);
-            entity.Property(e => e.PhotoUrl).HasMaxLength(255);
+            entity.Property(e => e.Firstname).HasMaxLength(255);
+            entity.Property(e => e.Lastname).HasMaxLength(255);
+            entity.Property(e => e.Photourl).HasMaxLength(255);
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -10,19 +10,24 @@ namespace ProcrastinatorBackend.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        ProcrastinatorDbContext dbContext = new ProcrastinatorDbContext();
+        private readonly ProcrastinatorDbContext _dbContext;
+
+        public UserController(ProcrastinatorDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         [HttpGet]
         public IActionResult GetAll()
         {
-            List<User> result = dbContext.Users.ToList();
+            List<User> result = _dbContext.Users.ToList();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            User result = dbContext.Users.Find(id);
+            User result = _dbContext.Users.Find(id);
             if(result == null)
             {
                 return NotFound();
@@ -33,38 +38,38 @@ namespace ProcrastinatorBackend.Controllers
         [HttpPost]
         public IActionResult AddUser(UserDTO newUser)
         {
-            if (dbContext.Users.Any(u => u.Email.ToLower() == newUser.Email.ToLower()))
+            if (_dbContext.Users.Any(u => u.Email.ToLower() == newUser.Email.ToLower()))
             {
-                return Ok(dbContext.Users.FirstOrDefault(u => u.Email.ToLower() == newUser.Email.ToLower()));
+                return Ok(_dbContext.Users.FirstOrDefault(u => u.Email.ToLower() == newUser.Email.ToLower()));
             } else
             {
             User u = new User
             {
-                FirstName = newUser.FirstName,
-                LastName = newUser.LastName,
+                Firstname = newUser.FirstName,
+                Lastname = newUser.LastName,
                 Email = newUser.Email,
-                PhotoUrl = newUser.PhotoUrl,
+                Photourl = newUser.PhotoUrl,
                 Display = newUser.Display,
             };
 
-            dbContext.Users.Add(u);
-            dbContext.SaveChanges();
-            return Created($"/Api/User/{u.UserId}", u);
+            _dbContext.Users.Add(u);
+            _dbContext.SaveChanges();
+            return Created($"/Api/User/{u.Userid}", u);
             }
         }
 
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, UserDTO updatedUser)
         {
-            User u = dbContext.Users.Find(id);
+            User u = _dbContext.Users.Find(id);
             if(u == null) { return NotFound(); }
-            u.FirstName = updatedUser.FirstName;
-            u.LastName = updatedUser.LastName;
+            u.Firstname = updatedUser.FirstName;
+            u.Lastname = updatedUser.LastName;
             u.Email = updatedUser.Email;
-            u.PhotoUrl = updatedUser.PhotoUrl;
+            u.Photourl = updatedUser.PhotoUrl;
             u.Display = updatedUser.Display;
-            dbContext.Users.Update(u);
-            dbContext.SaveChanges();
+            _dbContext.Users.Update(u);
+            _dbContext.SaveChanges();
             return NoContent();
             
         }
@@ -74,14 +79,14 @@ namespace ProcrastinatorBackend.Controllers
         public IActionResult DeleteUser(int id)
         {
 
-            User u = dbContext.Users.Include(u => u.Tasks).Include(u => u.MealPlanners).FirstOrDefault(u => u.UserId == id);
+            User u = _dbContext.Users.Include(u => u.Tasks).Include(u => u.Mealplanners).FirstOrDefault(u => u.Userid == id);
             if (u == null) { return NotFound(); } 
-            dbContext.MealPlanners.RemoveRange(u.MealPlanners);
-            dbContext.Tasks.RemoveRange(u.Tasks);
-            dbContext.SaveChanges();
+            _dbContext.MealPlanners.RemoveRange(u.Mealplanners);
+            _dbContext.Tasks.RemoveRange(u.Tasks);
+            _dbContext.SaveChanges();
 
-            dbContext.Users.Remove(u);
-            dbContext.SaveChanges();
+            _dbContext.Users.Remove(u);
+            _dbContext.SaveChanges();
             return NoContent();
          }
     }
