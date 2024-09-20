@@ -61,7 +61,7 @@ namespace ProcrastinatorBackend.Controllers
         {
             Models.Task t = new Models.Task
             {
-                Userid = newTask.UserId,
+                Userid = newTask.Userid,
                 Task1 = newTask.Task1,
                 Deadline = newTask.Deadline,
                 Details = newTask.Details,
@@ -84,7 +84,7 @@ namespace ProcrastinatorBackend.Controllers
             t.Task1 = updateTask.Task1;
             t.Deadline = updateTask.Deadline;
             t.Details = updateTask.Details;
-            t.Iscomplete = updateTask.IsComplete;
+            t.Iscomplete = updateTask.Iscomplete;
 
             _dbContext.Tasks.Update(t);
             _dbContext.SaveChanges();

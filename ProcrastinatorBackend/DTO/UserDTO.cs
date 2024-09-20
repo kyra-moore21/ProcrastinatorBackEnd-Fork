@@ -3,10 +3,10 @@
     public class UserDTO
     {
 
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public string? Firstname { get; set; }
+        public string? Lastname { get; set; }
         public string? Email { get; set; }
-        public string? PhotoUrl { get; set; }
+        public string? Photourl { get; set; }
         public string? Display { get; set; }
     }
 }

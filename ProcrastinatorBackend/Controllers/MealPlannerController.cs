@@ -58,7 +58,7 @@ namespace ProcrastinatorBackend.Controllers
         {
             Mealplanner m = new Mealplanner
             {
-                Userid = newMeal.UserId,
+                Userid = newMeal.Userid,
                 Title = newMeal.Title,
                 Url = newMeal.Url,
                 Like = false,
@@ -76,11 +76,11 @@ namespace ProcrastinatorBackend.Controllers
 
            Mealplanner m = _dbContext.MealPlanners.Find(id);
             if (m == null) { return NotFound(); }
-            m.Userid = meal.UserId;
+            m.Userid = meal.Userid;
             m.Title = meal.Title;
             m.Url = meal.Url;
             m.Like = meal.Like;
-            m.Iscompleted = meal.IsCompleted;
+            m.Iscompleted = meal.Iscompleted;
 
             _dbContext.MealPlanners.Update(m);
             _dbContext.SaveChanges();

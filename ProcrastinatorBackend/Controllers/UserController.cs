@@ -45,10 +45,10 @@ namespace ProcrastinatorBackend.Controllers
             {
             User u = new User
             {
-                Firstname = newUser.FirstName,
-                Lastname = newUser.LastName,
+                Firstname = newUser.Firstname,
+                Lastname = newUser.Lastname,
                 Email = newUser.Email,
-                Photourl = newUser.PhotoUrl,
+                Photourl = newUser.Photourl,
                 Display = newUser.Display,
             };
 
@@ -63,10 +63,10 @@ namespace ProcrastinatorBackend.Controllers
         {
             User u = _dbContext.Users.Find(id);
             if(u == null) { return NotFound(); }
-            u.Firstname = updatedUser.FirstName;
-            u.Lastname = updatedUser.LastName;
+            u.Firstname = updatedUser.Firstname;
+            u.Lastname = updatedUser.Lastname;
             u.Email = updatedUser.Email;
-            u.Photourl = updatedUser.PhotoUrl;
+            u.Photourl = updatedUser.Photourl;
             u.Display = updatedUser.Display;
             _dbContext.Users.Update(u);
             _dbContext.SaveChanges();
