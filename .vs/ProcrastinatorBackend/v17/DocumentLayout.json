@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\controllers\\mealplannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\mealplannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\models\\procrastinatordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\procrastinatordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\models\\mealplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\mealplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\models\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\models\\mealplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|solutionrelative:procrastinatorbackend\\models\\mealplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2133C39E-B892-4845-B135-C0272DB16675}|ProcrastinatorBackend\\ProcrastinatorBackend.csproj|c:\\users\\kyram\\onedrive\\desktop\\procrastinatorbackend-fork\\procrastinatorbackend\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MealPlanner.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\MealPlanner.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\MealPlanner.cs",
@@ -102,25 +94,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\MealPlanner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T17:26:04.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T17:26:04.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PostgresContext.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\PostgresContext.cs",
-              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\PostgresContext.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\PostgresContext.cs",
-              "RelativeToolTip": "ProcrastinatorBackend\\Models\\PostgresContext.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T17:16:38.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\Task.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\Task.cs",
@@ -128,12 +106,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\Task.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAmwB0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:52:09.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:52:09.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\User.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\User.cs",
@@ -141,12 +118,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:42:12.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:42:12.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Secret.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\Secret.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\Secret.cs",
@@ -154,51 +130,50 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\Secret.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:31:56.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:31:56.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\TaskController.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCsAAAANAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T16:28:41.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProcrastinatorDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\ProcrastinatorDbContext.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwDkAAAA8AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswDkAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T13:11:59.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Program.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Program.cs",
               "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Program.cs",
               "RelativeToolTip": "ProcrastinatorBackend\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:02:05.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\WeatherController.cs",
@@ -206,12 +181,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\WeatherController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:10:43.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T17:10:43.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\UserController.cs",
@@ -219,12 +193,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\UserController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAUwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:11:04.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T14:11:04.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "WeatherModel.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\WeatherModel.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\WeatherModel.cs",
@@ -232,12 +205,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\WeatherModel.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAmwFUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:08:16.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T17:08:16.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "QuoteController.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\QuoteController.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
@@ -245,12 +217,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\QuoteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T18:28:50.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T18:28:50.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
@@ -258,12 +229,11 @@
               "RelativeToolTip": "ProcrastinatorBackend\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:18:32.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:18:32.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "QuoteDAL.cs",
               "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Models\\QuoteDAL.cs",
               "RelativeDocumentMoniker": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
@@ -271,27 +241,7 @@
               "RelativeToolTip": "ProcrastinatorBackend\\Models\\QuoteDAL.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwBIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T18:27:58.169Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 218,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MealPlannerController.cs",
-              "DocumentMoniker": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
-              "RelativeDocumentMoniker": "ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
-              "ToolTip": "C:\\Users\\kyram\\OneDrive\\Desktop\\ProcrastinatorBackEnd-Fork\\ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
-              "RelativeToolTip": "ProcrastinatorBackend\\Controllers\\MealPlannerController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAtwFUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:26:46.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T18:27:58.169Z"
             }
           ]
         }
